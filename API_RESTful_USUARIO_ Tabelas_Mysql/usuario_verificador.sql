@@ -20,10 +20,6 @@ where id = '2';
 delete from usuario_verificador
 where id ='1';
 #--------------------
-truncate table usuario_verificador;
-ALTER TABLE USUARIO_VERIFICADOR MODIFY COLUMN uuid VARCHAR(36) NOT NULL;
-
- 
 
  
 
