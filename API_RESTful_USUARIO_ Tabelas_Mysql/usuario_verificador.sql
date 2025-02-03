@@ -7,6 +7,9 @@ VALUES ('', '', '');
  #READ usuario
 describe usuario_verificador;
 select * from usuario_verificador;
+
+#Remover todos os dados de uma tabela
+truncate table usuario_verificador;
 #--------------------
 #UPDATE 
 update usuario_verificador
